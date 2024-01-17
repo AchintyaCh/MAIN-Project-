@@ -16,6 +16,20 @@
 }
 
 #bgimg{
-    position: absolute;
-    top: 10%;
+    position: relative;
+    padding-top: 50px;
+    height: auto;
+    width: 100%; 
+}
+@media only screen and (max-width: 800px) {
+    #bgimg{
+        height: 65%;
+        width: 155%;
+        left: -10%;
+    }
+}
+
+#cimg{
+    
+    filter: brightness(50%);
 }

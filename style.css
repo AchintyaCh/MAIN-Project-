@@ -16,7 +16,7 @@
 }
 
 #bgimg{
-    position: absolute;
+    position: relative;
     padding-top: 50px;
     height: auto;
     width: 100%; 

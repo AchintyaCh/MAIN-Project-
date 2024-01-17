@@ -16,7 +16,7 @@
 }
 
 #bgimg{
-    position: relative;
+    position: absolute;
     padding-top: 50px;
     height: auto;
     width: 100%; 
@@ -30,6 +30,6 @@
 }
 
 #cimg{
-    
+    position: relative;
     filter: brightness(50%);
 }

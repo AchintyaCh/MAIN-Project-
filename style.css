@@ -21,15 +21,40 @@
     height: auto;
     width: 100%; 
 }
+.carousel slide{
+    position: relative;
+    height: 400px;
+}
+
+#cimg{
+    
+    filter: brightness(50%);   
+}
+#timg{
+    width: 24%;
+    z-index: 1;
+    position: absolute;
+    top: 36%;
+    left: 38%;
+}
+#feature{
+    color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    bottom: 26%;
+    font-size: xxx-large;
+    
+}
 @media only screen and (max-width: 800px) {
     #bgimg{
         height: 65%;
         width: 155%;
         left: -10%;
     }
-}
-
-#cimg{
-    position: relative;
-    filter: brightness(50%);
+    #feature{
+        bottom: 10%;
+        font-size: x-large;
+    }
 }

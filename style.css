@@ -59,9 +59,10 @@
 
 @media only screen and (max-width: 900px) {
     #bgimg{
-        height: 65%;
-        width: 155%;
-        left: -10%;
+        position: relative;
+        height: 100%;
+        width: 100%;
+        top: calc(3vh);
     }
     #feature{
         bottom: 15%;
@@ -76,7 +77,7 @@
     }
     #cimg{
         position: relative;
-        top: 0px;
+        top: calc(3vh);
         filter: brightness(50%);   
     }
     

@@ -46,7 +46,7 @@
 #bgimg {
   position: relative;
   padding-top: 50px;
-  height: calc(110vh);
+  height: auto;
   width: 100%;
 }
 .navlink active {

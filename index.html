@@ -65,12 +65,6 @@
               <a class="nav-link disabled" aria-disabled="true">Disabled</a>
             </li>
           </ul>
-          <button id="loginbtn1" type="button" class="btn btn-light">
-            Sign-up
-          </button>
-          <button id="loginbtn" type="button" class="btn btn-success">
-            Log-in
-          </button>
         </div>
       </div>
     </nav>
@@ -110,13 +104,17 @@
               ></button>
             </div>
             <div class="modal-body">
+              <div class="librarian" style="padding-right: 5%;">
               <img id="modal_img1" src="./assets/card1.jpeg" alt="" href="#" />
-              <img id="modal_img2" src="./assets/card5.jpeg" alt="" href="#" />
-              <h2 style="padding-left: 30px">
+              <h2>
                 Librarian
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User
               </h2>
             </div>
+            <div class="user">  
+            <img id="modal_img2" src="./assets/card5.jpeg" alt="" href="#" />
+              
+              <h2 style="padding-left:20% ;">User</h2>
+            </div></div>
             <div class="modal-footer">
               <button
                 type="button"
@@ -130,7 +128,7 @@
         </div>
       </div>
 
-      <button id="lgbtn" type="button" class="btn btn-success">Log-in</button>
+      <button id="lgbtn" onclick="redirect()" type="button" class="btn btn-success">Log-in</button>
     </div>
 
     <!-- courosal -->

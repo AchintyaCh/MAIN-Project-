@@ -6,27 +6,14 @@
 #logo {
   width: 50px;
 }
-#loginbtn1 {
-  position: absolute;
-  top: 15px;
-  right: 160px;
-  box-shadow: 3px 4px 10px rgba(0, 0, 0.1);
-  transition-duration: 0.3s;
-}
-#loginbtn {
-  position: absolute;
-  top: 15px;
-  right: 80px;
-  box-shadow: 3px 4px 10px rgba(0, 0, 0.1);
-  transition-duration: 0.3s;
-}
+
 #lgbtn1 {
   position: absolute;
   font-size: larger;
   padding: 10px;
   padding-left: 15px;
   padding-right: 15px;
-  right: calc(30vh);
+  right: calc(40vh);
   bottom: calc(25vh);
   box-shadow: 3px 4px 10px rgba(0, 0, 0.1);
 }
@@ -36,7 +23,7 @@
   padding: 10px;
   padding-left: 15px;
   padding-right: 15px;
-  right: 15vh;
+  right: calc(25vh);
   bottom: calc(25vh);
   box-shadow: 3px 4px 10px rgba(0, 0, 0.1);
 }
@@ -99,17 +86,20 @@
   position: relative;
   top: calc(60vh);
 }
+.modal-body{
+  display:flex;
+  position: relative;
+  justify-content: center;
+}
 #modal_img1 {
   position: relative;
   width: 120px;
-  left: 20px;
   border-radius: 100px;
   transition-duration: 0.3s;
 }
 #modal_img2 {
   position: relative;
   width: 120px;
-  right: -90px;
   border-radius: 100px;
   transition-duration: 0.3s;
 }
@@ -144,7 +134,7 @@
     padding: 10px;
     padding-left: 15px;
     padding-right: 15px;
-    right: calc(16vh);
+    right: calc(20vh);
     bottom: calc(0vh);
     box-shadow: 3px 4px 10px rgba(0, 0, 0.1);
   }

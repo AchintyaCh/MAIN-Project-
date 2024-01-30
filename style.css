@@ -6,14 +6,27 @@
 #logo {
   width: 50px;
 }
-
+#loginbtn1 {
+  position: absolute;
+  top: 15px;
+  right: 160px;
+  box-shadow: 3px 4px 10px rgba(0, 0, 0.1);
+  transition-duration: 0.3s;
+}
+#loginbtn {
+  position: absolute;
+  top: 15px;
+  right: 80px;
+  box-shadow: 3px 4px 10px rgba(0, 0, 0.1);
+  transition-duration: 0.3s;
+}
 #lgbtn1 {
   position: absolute;
   font-size: larger;
   padding: 10px;
   padding-left: 15px;
   padding-right: 15px;
-  right: calc(40vh);
+  right: calc(30vh);
   bottom: calc(25vh);
   box-shadow: 3px 4px 10px rgba(0, 0, 0.1);
 }
@@ -23,7 +36,7 @@
   padding: 10px;
   padding-left: 15px;
   padding-right: 15px;
-  right: calc(25vh);
+  right: 15vh;
   bottom: calc(25vh);
   box-shadow: 3px 4px 10px rgba(0, 0, 0.1);
 }
@@ -86,20 +99,17 @@
   position: relative;
   top: calc(60vh);
 }
-.modal-body{
-  display:flex;
-  position: relative;
-  justify-content: center;
-}
 #modal_img1 {
   position: relative;
   width: 120px;
+  left: 20px;
   border-radius: 100px;
   transition-duration: 0.3s;
 }
 #modal_img2 {
   position: relative;
   width: 120px;
+  right: -90px;
   border-radius: 100px;
   transition-duration: 0.3s;
 }
@@ -118,6 +128,32 @@
   top: calc(30vh);
   color: rgb(17, 109, 45);
 }
+
+/* cards */
+
+.contributors{
+  position: absolute;
+  padding-left: 17%;
+  padding-bottom: 5%;
+  
+}
+
+#dp{
+  position: relative;
+  border-radius: 50%;
+  width: 250px;
+  padding: 40px;
+  
+}
+.card{
+  padding: 5%;
+  box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.579);
+  display: grid;
+  align-items: center;
+}
+.card-body{
+  text-align: center;
+}
 @media only screen and (max-width: 900px) {
   .bg {
     position: relative;
@@ -134,7 +170,7 @@
     padding: 10px;
     padding-left: 15px;
     padding-right: 15px;
-    right: calc(20vh);
+    right: calc(19vh);
     bottom: calc(0vh);
     box-shadow: 3px 4px 10px rgba(0, 0, 0.1);
   }
@@ -182,5 +218,17 @@
     filter: brightness(50%);
 
     border-radius: 0px;
+  }
+  /* cards */
+
+  .contributors{
+    position: absolute;
+    width: 90%;
+    padding-left: 15%;
+    padding-top: 10%;
+  }
+  #dp{
+    /* left: calc(10%); */
+    align-items: center;
   }
 }

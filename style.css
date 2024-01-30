@@ -102,14 +102,14 @@
 #modal_img1 {
   position: relative;
   width: 120px;
-  left: 20px;
+  left: 50px;
   border-radius: 100px;
   transition-duration: 0.3s;
 }
 #modal_img2 {
   position: relative;
   width: 120px;
-  right: -90px;
+  right: -160px;
   border-radius: 100px;
   transition-duration: 0.3s;
 }
@@ -218,6 +218,12 @@
     filter: brightness(50%);
 
     border-radius: 0px;
+  }
+  #modal_img1{
+    left: 30px;
+  }
+  #modal_img2{
+    right: -90px;
   }
   /* cards */
 

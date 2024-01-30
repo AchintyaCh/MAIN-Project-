@@ -225,6 +225,11 @@
   #modal_img2{
     right: -90px;
   }
+  #utility{
+    top: calc(67vh);
+    right: calc(15vh);
+    font-size: xxx-large;
+  }
   /* cards */
 
   .contributors{

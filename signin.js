@@ -23,13 +23,10 @@ app.get('/', (req, res) => {
   // Render your HTML form here
   
   res.sendFile(__dirname+'/index.html');
-  res.sendFile(__dirname+'/style.css');
-  res.sendFile(__dirname+'/signin.html');
-  res.sendFile(__dirname+'/signin.js')
-  res.sendFile('./assets');
-  res.sendFile('./');
+
   
 });
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.post('/storeNumber', (req, res) => {
   const userInput = req.body.mail;

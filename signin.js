@@ -23,7 +23,15 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.get('/', (req, res) => {
   // Render your HTML form here
   
-  res.sendFile(__dirname+'/index.html');
+ const filesToSend = [
+    '/index.html',
+    '/style.css',
+    '/signin.html',
+    '/signin.js'
+  ];
+
+  // Serve the files
+  serveFiles(res, filesToSend);
 
   
 });

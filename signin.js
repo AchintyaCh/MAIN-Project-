@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => {
   // Render your HTML form here
-  res.sendFile(__dirname + '/index.html');
+  res.sendFile(__dirname);
 });
 
 app.post('/storeNumber', (req, res) => {

@@ -22,10 +22,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.get('/', (req, res) => {
   // Render your HTML form here
   
-  res.sendFile(__dirname+'./index.html');
+  res.sendFile(__dirname+'/index.html');
   res.sendFile(__dirname+'/style.css');
   res.sendFile(__dirname+'/signin.html');
-  res.sendFile(__dirname+'./signin.js')
+  res.sendFile(__dirname+'/signin.js')
   res.sendFile('./assets');
   res.sendFile('./');
   
